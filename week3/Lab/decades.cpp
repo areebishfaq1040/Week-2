@@ -3,17 +3,17 @@ using namespace std;
 main()
 {
 cout<<"Enter the current world population: ";
-int p;
-cin>>p;
+int population;
+cin>>population;
 
 cout<<"Enter the monthly birth rate(number of births per month): ";
-int m;
-cin>>m;
+int birthRate;
+cin>>birthRate;
 
 int P;
-P=m*360;
+P=birthRate*360;
 
-int o;
-o=P+p;
-cout<<"population in three dacades will be:"<<o;
+int decades;
+decades=P+population;
+cout<<"population in three dacades will be:"<<decades;
 }

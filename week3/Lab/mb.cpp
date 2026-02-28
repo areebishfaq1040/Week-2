@@ -2,10 +2,10 @@
 using namespace std;
 main()
 {
-cout<< "Enter the Number Of Hours: ";
-int hour;
-cin>>hour;
-int seconds;
-seconds=hour*3600;
-cout<< hour <<" hour is equil to "<<seconds <<" seconds";
+cout<< "Enter the size in Megabytes(MB): ";
+int mb;
+cin>>mb;
+int bits;
+bits=mb*1024*1024*8;
+cout<< mb <<" is equivalent to " <<bits <<" bits";
 }

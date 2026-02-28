@@ -3,14 +3,14 @@ using namespace std;
 main()
 {
 cout<<"Enter Minutes: ";
-int p;
-cin>>p;
+int minutes;
+cin>>minutes;
 
 cout<<"Enter fps: ";
-int m;
-cin>>m;
+int fps;
+cin>>fps;
 
-int o;
-o=p*60*m;
-cout<<"Total Points = :"<<o;
+int total;
+total=minutes*60*fps;
+cout<<"Total Points = :"<<total;
 }
