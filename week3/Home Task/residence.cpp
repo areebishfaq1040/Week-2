@@ -10,7 +10,7 @@ cout<<"Enter the number of times they've moved:";
 int moved;
 cin>>moved;       
 
-int sum;
-sum=age/(moved+1);
-cout<<"Sum of individual digits: "<<sum;
+int average;
+average=age/(moved+1);
+cout<<"Average Number of Years lived in same house: "<<average;
 }
