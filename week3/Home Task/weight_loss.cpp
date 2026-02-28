@@ -3,14 +3,14 @@ using namespace std;
 main()
 {
 cout<<"Enter Your Name: ";
-string p;
-cin>>p;
+string name;
+cin>>name;
 
 cout<<"Enter the target weight loss in kilogram: ";
-float m;
-cin>>m;
+float targetWeight;
+cin>>targetWeight;
 
-float o;
-o=m*15;
-cout<< p <<" will need "<<o <<" days to lose " <<m <<" kg of weight by following the doctor's suggesyions";
+float requiredDays;
+requiredDays=targetWeight*15;
+cout<< name <<" will need "<<requiredDays <<" days to lose " <<targetWeight <<" kg of weight by following the doctor's suggesyions";
 }

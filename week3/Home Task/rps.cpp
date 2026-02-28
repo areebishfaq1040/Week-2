@@ -3,22 +3,22 @@ using namespace std;
 main()
 {
 cout<<"Enter vegetable price per kilogram (in coins):";
-float a;
-cin>>a;
+float vegPrice;
+cin>>vegPrice;
 
 cout<<"Enter fruit price per kilogram (in coins):";
-float b;
-cin>>b;  
+float fruitPrice;
+cin>>fruitPrice;  
 
 cout<<"Enter total kilogram of vegetables: ";
-float c;
-cin>>c;  
+float kgVeg;
+cin>>kgVeg;  
 
 cout<<"Enter total kilogram of fruits: ";
-float d;
-cin>>d;      
+float kgFruit;
+cin>>kgFruit;      
 
-int e;
-e=c*a+b*d/1.94;
-cout<<"Total earnings in Rupees (Rps): "<<e;
+float totalEarning;
+totalEarning=(kgVeg*vegPrice+fruitPrice*kgFruit)/1.94;
+cout<<"Total earnings in Rupees (Rps): "<<totalEarning;
 }

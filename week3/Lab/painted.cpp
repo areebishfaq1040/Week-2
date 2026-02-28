@@ -2,19 +2,19 @@
 using namespace std;
 main()
 {
-cout<<"Enter paint area: ";
-int p;
-cin>>p;
+cout<<"Enter area you can paint: ";
+int area;
+cin>>area;
 
 cout<<"Enter width: ";
-int m;
-cin>>m;
+int width;
+cin>>width;
 
 cout<<"Enter height: ";
-int n;
-cin>>n;
+int height;
+cin>>height;
 
-int o;
-o=p/(m*n);
-cout<<"Walls painted = "<<o;
+int totalWallsPainted;
+totalWallsPainted=area/(width*height);
+cout<<"Number of Walls you can paint: "<<totalWallsPainted;
 }

@@ -3,22 +3,22 @@ using namespace std;
 main()
 {
 cout<<"Enter the size of bag in pounds: ";
-int p;
-cin>>p;
+int size;
+cin>>size;
 
 cout<<"Enter the cost of bag: ";
-float m;
-cin>>m;  
+float cost;
+cin>>cost;  
 
 cout<<"Enter the area in square feet that can be covered by the bag: ";
-float n;
-cin>>n;      
+float area;
+cin>>area;      
 
-float o;
-o=m/p;
-cout<<"cost of fertilizer per pound:"<<o <<endl;
+float PerPoundCost;
+PerPoundCost=cost/size;
+cout<<"cost of fertilizer per pound:"<<PerPoundCost <<endl;
 
-float i;
-i=m/n;
-cout<<"cost of fertilizing per square foot:"<<i;
+float PerSquarefootCost;
+PerSquarefootCost=cost/area;
+cout<<"cost of fertilizing per square foot:"<<PerSquarefootCost;
 }

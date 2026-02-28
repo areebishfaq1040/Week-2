@@ -3,14 +3,14 @@ using namespace std;
 main()
 {
 cout<<"Enter Imposter count: ";
-int p;
-cin>>p;
+int imposter;
+cin>>imposter;
 
 cout<<"Enter Player Count : ";
-int m;
-cin>>m;
+int player;
+cin>>player;
 
-int o;
-o=100*p/m;
-cout<<"chance of being an imposter:"<<o <<"%";
+int chance;
+chance=100*imposter/player;
+cout<<"chance of being an imposter:"<<chance <<"%";
 }

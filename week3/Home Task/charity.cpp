@@ -3,36 +3,40 @@ using namespace std;
 main()
 {
 cout<<"Enter the movie name:";
-string a;
-cin>>a;
+string movie;
+cin>>movie;
 
-cout<<"Enter the adult ticket price:";
-float b;
-cin>>b;  
+cout<<"Enter the adult ticket price: ";
+float adultTicket;
+cin>>adultTicket;  
 
 cout<<"Enter the child ticket price: ";
-float c;
-cin>>c;  
+float childTicket;
+cin>>childTicket;  
 
 cout<<"Enter the number of adult tickets sold: ";
-float d;
-cin>>d;      
+float adultTicketSold;
+cin>>adultTicketSold;    
+  
 cout<<"Enter the number of child tickets sold: ";
-float e;
-cin>>e;      
+float childTicketSold;
+cin>>childTicketSold;      
 
 cout<<"Enter the percentage of amount to be donated to charity: ";
-float f;
-cin>>f; 
+float charity;
+cin>>charity; 
 
-cout<<"----------------------------------------------\n" <<"Movie: " <<a <<"\n";
-int g;
-g=b*d+c*e;
-cout<<"Total Amount generated from ticket sales : " <<g <<"\n";
-int h;
-h=15*g/100;
-cout<<"Donation to charity(15): " <<h <<"\n";
-int i;
-i=g-h;
-cout<<"Remaining amount after donation: " <<i; 
+cout<<"----------------------------------------------\n" <<"Movie: " <<movie <<"\n";
+
+int totalSales;
+totalSales=adultTicket*adultTicketSold+childTicket*childTicketSold;
+cout<<"Total Amount generated from ticket sales : " <<totalSales <<"\n";
+
+int donation;
+donation=charity*totalSales/100;
+cout<<"Donation to charity(" <<charity <<"%): " <<donation <<"\n";
+
+int remaining;
+remaining=totalSales-donation;
+cout<<"Remaining amount after donation: " <<remaining; 
 }

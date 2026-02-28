@@ -3,10 +3,10 @@ using namespace std;
 main()
 {
 cout<<"Enter sides: ";
-int s;
-cin>>s;
+int sides;
+cin>>sides;
 
-int o;
-o=(s-2)*180;
-cout<< s <<"-sided polygon is : "<<o <<" degrees";
+int degrees;
+degrees=(sides-2)*180;
+cout<< sides <<"-sided polygon is : "<<degrees <<" degrees";
 }

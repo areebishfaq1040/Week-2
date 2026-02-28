@@ -3,10 +3,10 @@ using namespace std;
 main()
 {
 cout<<"Enter four digits number:";
-int a;
-cin>>a;      
+int num;
+cin>>num;      
 
-int e;
-e=a%10+a/10%10+a/100%10+a/1000%10;
-cout<<"Sum of individual digits: "<<e;
+int result;
+result=num%10+num/10%10+num/100%10+num/1000%10;
+cout<<"Sum of individual digits: "<<result;
 }
